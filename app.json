@@ -1,0 +1,24 @@
+{
+    "name": "Exam Results Checker Bot",
+    "description": "Checks exams results",
+    "keywords": [
+        "Results-Checker",
+        "python",
+        "telegram",
+        "telegram-bot"
+    ],
+    "repository": "https://github.com/UvinduBro/Exams-results-Bot",
+    "success_url": "/",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Get your token from @BotFather and paste it here."
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/python"
+}
